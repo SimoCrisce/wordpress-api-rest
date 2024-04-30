@@ -6,6 +6,8 @@ import MyNav from "./components/MyNav";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SinglePost from "./components/SinglePost";
 import PostPost from "./components/PostPost";
+import EditPost from "./components/EditPost";
+import PostImage from "./components/PostImage";
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
           <Route path="/posts" element={<Posts />} />
           <Route path="/posts/:id" element={<SinglePost />} />
           <Route path="/post" element={<PostPost />} />
+          <Route path="/post/:id" element={<EditPost />} />
         </Routes>
       </BrowserRouter>
     </>

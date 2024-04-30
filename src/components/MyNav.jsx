@@ -24,6 +24,11 @@ const MyNav = function () {
               Pubblica un articolo
             </Link>
           </div>
+          <div>
+            <Link to="/postImg" className="nav-link">
+              Aggiungi immagine
+            </Link>
+          </div>
         </Nav>
       </Container>
     </Navbar>
